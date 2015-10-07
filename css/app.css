@@ -161,6 +161,17 @@ a {
   background: #fff;
 }
 
+.product__control {
+  min-height: 90px;
+  justify-content: center;
+}
+
+.product__img-wrapper {
+  min-height: 170px;
+  justify-content: center;
+  width: 100%;
+}
+
 .product__img {
   width: 100%;
 }
@@ -259,6 +270,7 @@ a {
 
 .cart-item__top-part__middle {
   flex-grow: 1;
+  flex-basis: 0;
   margin-left: 20px;
 }
 
@@ -299,6 +311,11 @@ a {
   border-radius: 10px;
   text-align: center;
   margin: 10px;
+}
+
+.adjust-qty--gray .adjust-qty__button {
+  background: #D8D8D8;
+  color: #fff;
 }
 
 .checkout {
